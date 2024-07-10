@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 100%;
+    padding: 0; /* Remove padding to avoid extra space */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; /* Remove margins to avoid extra space */
+}
+
+.col-lg-6,
+.col-lg-12 {
+    padding: 0; /* Remove padding to avoid extra space */
+    box-sizing: border-box;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+.align-items-center {
+    align-items: center;
+    display: flex;
+}
+
+/* Navigation Section */
+#nv-spcil {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Heading Section */
+.heading {
+    width: 100%;
+    height: 100vh; /* Use 100vh to cover the entire viewport height */
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.heading div {
+    width: 100%;
+    height: 100%;
+    background-image: url('image/BST.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hading-h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* Remove margins to avoid extra space */
+}
+
+.php {
+    color: #b81004;
+    font-size: 30px;
+    margin-top: 10px; /* Add margin to create space between elements */
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 5px 5px; /* Add padding for better appearance */
+}
+
+/* Content Section */
+.content {
+    padding: 50px 0;
+    background-color: #f2cff0;
+}
+
+.section-content {
+    background-color: #f2cff0;
+}
+
+.content-text {
+    padding: 0 30px;
+}
+
+.content-text h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.content-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.content-image {
+    text-align: center;
+}
+
+.content-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Features Section */
+.content-2 {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.content-2 h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    text-align: center;
+    margin: 0 20px;
+    margin-bottom: 40px;
+    max-width: 300px;
+}
+
+.feature-item i {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
